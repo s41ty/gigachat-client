@@ -1,0 +1,34 @@
+{
+  "name": "gigachat-client",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Sergey Yuryev",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s41ty/gigachat-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s41ty/gigachat-client/issues"
+  },
+  "homepage": "https://github.com/s41ty/gigachat-client#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "@typescript-eslint/parser": "^8.18.1",
+    "eslint": "^9.17.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "uuid": "^11.0.3"
+  }
+}
